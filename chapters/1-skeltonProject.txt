@@ -1,0 +1,36 @@
+A website will have so many pages like mainpage, blog, downloads Django encourages us to develop each of these individually which is called app. So that you can use this apps in another project too!
+
+when we create a project in this case thelocallibrary we get many starter files:
+
+1. settings.py : this basically contains all the website setting like which database we are associating to project, location of all static site, registering the application we create.
+
+2. urls.py : contains a mappings of urls to view 
+
+3. wsgi.py : hepls django to communicate with the webserver
+
+4. asgi.py : stanard for python asynchronous apps web apps and server to communicate with each other.
+
+5. manage.py : used to create applications, runserver, work with databases.
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+creating an app: 
+
+use manage.py to create an applicaiton, command goes something like this,
+
+python3 manage.py startapp app_name
+
+Most of the files which is being created are named after their purpose. One more folder is migrations, this basically contains all the files which automatically updates our database as we change our models.
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+1. Once we create an application we have to add it(register it) to the settings, so that it will be included when the tool is being run.
+2. Specify the database
+3. Hook up with the url mapper : the url mappings are managed through urlpatterns variable, which is a python list of path functions. 
+
+
+
+
+
+
+

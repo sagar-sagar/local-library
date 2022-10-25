@@ -1,0 +1,10 @@
+to understand the benefits and limitaions of Django admin site and use it to create some records in our models.
+
+All the configuration for the admin site is already done when we created the catalog skeleton website now all we have to do is to register our model to the website.
+
+to register all we have to do is to go to 'admin.py' and it will already have one import which from django.contrib import admin
+
+Now to register your model:
+you the syntax will be like : admin.site.register(ModelName)
+
+After you register the models, we have to create the superuser so he can have access have admin site as well as to the model objects to create, update, delete, 

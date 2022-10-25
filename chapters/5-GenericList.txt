@@ -1,0 +1,4 @@
+In this unit we will finish the first version of the local library	
+
+Generic class based list and detail views:
+Here we are just not calling the view function which we have defined instead what we are doing is we are defining our own class and we are inheriting some other class and we are calling the method of some inherited class.

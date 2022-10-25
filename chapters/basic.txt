@@ -1,0 +1,53 @@
+Basic things you need to know before starting with django:
+
+Url : The url mapper is used to map an URl to a particular view,
+A URL mapper is used to redirect HTTP requests to the appropriate view based on the request URL. 
+
+View : A view is an request handler function, which recieves HTTP request and return HTTP response.
+
+Models : models are the python objects that define the structure of the application's data and provide mechanism to add,delete and
+update and add query the data.
+
+Template : A template is a text file which defines the structure of the file (typically html page). A view can dynamically create an 
+HTML page and populate it with the data from the models.
+
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+2. Setting up django environment
+-----------------------------------------------------------------------
+In python installing a package is usually global, i.e once you have installed the package it is available to all the python code. But, when you to have install two different version of the package you can't install but by using virtualenv we can do it. 
+
+-----------------------------------------------------------------------
+we install virtualenvwrapper library to create a virtual environment
+
+command : sudo pip3 install virtualenvwrapper		
+
+To create a virtual env we use command : mkvirtualenv name_of_the_virtualenv
+
+Some comman commands:
+
+1. workon - list all the commands
+2. workon nameofVirtualEnv - workon the particular virtualenv
+3. deactivate - to exit of the virtual env
+4. rmvirtualenv nameOfVirtualEnv - Remove the specified virtualenv
+
+-----------------------------------------------------------------------
+
+To install django:
+
+pip3 install django 
+
+-----------------------------------------------------------------------
+
+To create a new django project :
+
+1. django-admin startproject project_name
+2. to run the project go to the manage.py and the command is python3 manage.py runserver
+
+
+
+
+
+
+

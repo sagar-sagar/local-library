@@ -1,0 +1,2 @@
+
+Models : Models are the classes which defines the fields which are in database as well as their type preety much everything what you would do with the database management table fields and include metadata, methods:

@@ -1,0 +1,12 @@
+Local library
+
+* A webapp to manage the catalog of local library
+* user can browse books and manage the account.
+
+Phase 1 : 
+1. Browse only : library memeber can browse to see what books are available (takeaways : perform basic operation like reading from a database)
+
+Phase 2 :
+2. Allow user to browse and reserve.
+
+
